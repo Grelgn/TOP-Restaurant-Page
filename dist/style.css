@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+#content {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr 11fr;
+}
+
+header {
+    grid-column: span 2;
+    background-color: #27272a;
+}
+
+.text {
+    display: grid;
+    justify-items: center;
+    padding: 128px 16px;
+    grid-template-rows: 1fr 4fr;
+    background-image: url(./joshua-bartell-6vvIBTvL90A-unsplash.jpg);
+    background-size: cover;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.name {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+
+.copy {
+    font-size: 24px;
+}
+
+.image {
+    background-image: url(./victoria-shes-UC0HZdUitWY-unsplash.jpg);
+    background-size: cover;
+    background-position: right;
+}
