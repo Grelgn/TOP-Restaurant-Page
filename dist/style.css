@@ -40,7 +40,7 @@ header {
     background-position: right;
 }
 
-.menu {
+.menu, .contact {
     grid-column: span 2;
     display: grid;
     justify-items: center;
@@ -48,4 +48,8 @@ header {
     background-image: url(./joshua-bartell-6vvIBTvL90A-unsplash.jpg);
     background-size: cover;
     font-size: 48px;
+}
+
+.menu > div, .contact > div {
+    background: rgba(0, 0, 0, 0.5)
 }
