@@ -13,6 +13,18 @@ body {
 header {
     grid-column: span 2;
     background-color: #27272a;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-auto-flow: column;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 30vw;
+}
+
+a {
+    margin: 16px;
+    cursor: pointer;
 }
 
 .text {
