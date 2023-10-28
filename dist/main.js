@@ -1,1 +1,1 @@
-console.log("test");
+(()=>{"use strict";!function(){const e=document.querySelector("#content"),t=document.createElement("header");e.appendChild(t);const n=document.createElement("div");n.classList.add("image"),e.appendChild(n);const d=document.createElement("div");d.classList.add("text");const c=document.createElement("div");c.classList.add("name"),c.textContent="Local Kebab Place",d.appendChild(c);const a=document.createElement("div");a.classList.add("copy"),a.textContent="Best food near 'YOUR LOCATION'",d.appendChild(a),e.appendChild(d)}()})();
