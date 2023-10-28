@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    color: antiquewhite;
 }
 
 #content {
@@ -21,7 +22,6 @@ header {
     grid-template-rows: 1fr 4fr;
     background-image: url(./joshua-bartell-6vvIBTvL90A-unsplash.jpg);
     background-size: cover;
-    color: antiquewhite;
     font-weight: bold;
 }
 
@@ -38,4 +38,14 @@ header {
     background-image: url(./victoria-shes-UC0HZdUitWY-unsplash.jpg);
     background-size: cover;
     background-position: right;
+}
+
+.menu {
+    grid-column: span 2;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-image: url(./joshua-bartell-6vvIBTvL90A-unsplash.jpg);
+    background-size: cover;
+    font-size: 48px;
 }
